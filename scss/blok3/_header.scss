@@ -1,0 +1,38 @@
+*{
+    margin: o;
+    padding: o;
+    box-sizing: border-box;
+}
+.header__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: inline-block;
+}
+.logo__image{
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav{
+    display: inline-block;
+    display: flex;
+}
+.nav__item a{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height, or 160% */
+
+
+    color: #83888F;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 35px;
+}
+ul{
+    list-style: none;
+}
